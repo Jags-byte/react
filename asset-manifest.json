@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Jags-byte/react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Jags-byte/react/static/js/main.594998ce.chunk.js",
-    "main.js.map": "/Jags-byte/react/static/js/main.594998ce.chunk.js.map",
-    "runtime-main.js": "/Jags-byte/react/static/js/runtime-main.61999be2.js",
-    "runtime-main.js.map": "/Jags-byte/react/static/js/runtime-main.61999be2.js.map",
-    "static/js/2.b8eb2fb0.chunk.js": "/Jags-byte/react/static/js/2.b8eb2fb0.chunk.js",
-    "static/js/2.b8eb2fb0.chunk.js.map": "/Jags-byte/react/static/js/2.b8eb2fb0.chunk.js.map",
-    "index.html": "/Jags-byte/react/index.html",
-    "precache-manifest.c2efeaa95418fa8e3d448f03f4b2a317.js": "/Jags-byte/react/precache-manifest.c2efeaa95418fa8e3d448f03f4b2a317.js",
-    "service-worker.js": "/Jags-byte/react/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Jags-byte/react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b8eb2fb0.chunk.js.LICENSE.txt": "/Jags-byte/react/static/js/2.b8eb2fb0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Jags-byte/react/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Jags-byte/first-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Jags-byte/first-app/static/js/main.620541ce.chunk.js",
+    "main.js.map": "/Jags-byte/first-app/static/js/main.620541ce.chunk.js.map",
+    "runtime-main.js": "/Jags-byte/first-app/static/js/runtime-main.b6bef42b.js",
+    "runtime-main.js.map": "/Jags-byte/first-app/static/js/runtime-main.b6bef42b.js.map",
+    "static/js/2.b8eb2fb0.chunk.js": "/Jags-byte/first-app/static/js/2.b8eb2fb0.chunk.js",
+    "static/js/2.b8eb2fb0.chunk.js.map": "/Jags-byte/first-app/static/js/2.b8eb2fb0.chunk.js.map",
+    "index.html": "/Jags-byte/first-app/index.html",
+    "precache-manifest.bf9299fc4520921b732f45ba4ad16239.js": "/Jags-byte/first-app/precache-manifest.bf9299fc4520921b732f45ba4ad16239.js",
+    "service-worker.js": "/Jags-byte/first-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Jags-byte/first-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b8eb2fb0.chunk.js.LICENSE.txt": "/Jags-byte/first-app/static/js/2.b8eb2fb0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Jags-byte/first-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61999be2.js",
+    "static/js/runtime-main.b6bef42b.js",
     "static/js/2.b8eb2fb0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.594998ce.chunk.js"
+    "static/js/main.620541ce.chunk.js"
   ]
 }
