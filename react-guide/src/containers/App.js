@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import classes from './App.css';
-import Person from './Person/Person';
- 
- 
- 
- 
- 
+import Persons from '../components/Persons/Persons';
+import Cockpit from '../components/Cockpit/Cockpit';
+
 class App extends Component {
   state = {
     persons: [
@@ -52,43 +49,26 @@ class App extends Component {
  
   render() {
  
-    let personVal = null;
-    let btnClass = [classes.Button];
- 
+    let personVal = null; 
+    
     if (this.state.showPersons) {
-      personVal = (
-        <div>
-          {this.state.persons.map((person, index) => {
-            return <Person
-              click={() => this.deletePersonHandler(index)}
-              name={person.name}
-              age={person.age}
-              key={person.id}
-              changed={(event) => this.changeNameHandler(event, person.id)} />
-          })}
-        </div>
-      );
-      btnClass.push(classes.Red);
-    }
- 
-    const classesPara = [];
-    if (this.state.persons.length <= 2) {
-      classesPara.push(classes.red); //['red'] if the number of persons is less than or equal to two.
-    }
-    if (this.state.persons.length <= 1) {
-      classesPara.push(classes.red); //['red', 'bold'] if the number of persons is less than or equal to 1.
+      //Since this is a single JSX component, the enclosing paranthesis () is not needed.
+      personVal = <Persons
+            persons = {this.state.persons}
+            clicked = {this.deletePersonHandler}
+            changed = {this.changeNameHandler}
+          />;
     }
  
     return (
       <div className={classes.App}>
-        <h1>Jags first React App.</h1>
-        <p className={classesPara.join(' ')}> This is really working!</p>
-        <button className={btnClass.join(' ')} onClick={this.toggleNameHandler}>Toggle Names</button>
+        <Cockpit
+          persons = {this.state.persons}
+          showPersons = {this.state.showPersons}
+          clicked = {this.toggleNameHandler}
+        />
         {personVal}
- 
-      </div>
-      // JSX gets converted to below
-      // React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Jagdeesh first Element'))
+       </div>
     );
   }
 }
